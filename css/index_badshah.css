@@ -1,0 +1,60 @@
+
+body{
+ background-color: cornflowerblue;
+}
+
+.leftHalf{    
+    height:86vh;
+}
+#songImage{
+    height:313px;
+    width:100%;
+}
+.songName{
+    color: greenyellow;
+    font-family: 'Monoton', cursive;
+font-family: 'Passion One', cursive;
+font-family: 'Red Rose', cursive;
+}
+p{
+    color: #67E6DC;
+}
+.rightFull{
+    height:86vh;
+    margin-bottom: 0;
+    overflow-y :scroll;
+    font-size: 30px;
+    
+}
+.header{
+    position: relative;
+    font-size: 40px;
+ width:100%;
+ height :100px;
+ background-color: #2B2B52;
+ font-family: 'Red Rose', cursive;
+ color: #EC4849
+}
+.sidebar{
+    /* color: whitesmoke; */
+   height :10%;
+   font-size: 25px;
+   position: relative;
+}
+.lyrics{
+    position: absolute;
+    right: 75px;
+}
+.play{
+    position: absolute;
+    right:8px;
+    bottom :10px;
+}
+#leftArrowIcon{
+  position: absolute;
+  left: 20px;
+}
+/* #rightArrowIcon{
+    position: absolute;
+    right:20px;
+} */
